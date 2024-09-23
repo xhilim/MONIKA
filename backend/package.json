@@ -1,0 +1,15 @@
+{
+  "name": "tinder",
+  "version": "1.0.0",
+  "description": "backend for tinder",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Tarnowski",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3"
+  }
+}
