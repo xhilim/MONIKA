@@ -1,4 +1,6 @@
 const express = require('express');
+const mongo = require('mongoose');
+require('dotenv').config();
 
 // Tworzenie aplikacji Express
 const app = express();
@@ -11,5 +13,7 @@ app.get('/', (req, res) => {
 // Uruchomienie serwera na porcie 3000
 const PORT = 3001;
 app.listen(PORT, () => {
-  console.log(`Serwer nasłuchuje na porcie ${PORT}`);
+  console.log(process.env.DUPA);
 });
+
+//`Serwer nasłuchuje na porcie ${PORT}`
